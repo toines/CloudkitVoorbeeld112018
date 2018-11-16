@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0AD48B219D7187003C6F70 /* viewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AD48A219D7187003C6F70 /* viewControllerExtensions.swift */; };
 		CFE4CD04219962C700848EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD03219962C700848EEA /* AppDelegate.swift */; };
-		CFE4CD06219962C700848EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD05219962C700848EEA /* ViewController.swift */; };
 		CFE4CD09219962C700848EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE4CD07219962C700848EEA /* Main.storyboard */; };
 		CFE4CD0C219962C700848EEA /* CloudkitVoorbeeld112018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD0A219962C700848EEA /* CloudkitVoorbeeld112018.xcdatamodeld */; };
 		CFE4CD0E219962CA00848EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE4CD0D219962CA00848EEA /* Assets.xcassets */; };
 		CFE4CD11219962CA00848EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE4CD0F219962CA00848EEA /* LaunchScreen.storyboard */; };
 		CFE4CD1C219962CA00848EEA /* CloudkitVoorbeeld112018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD1B219962CA00848EEA /* CloudkitVoorbeeld112018Tests.swift */; };
+		CFE4CD292199631F00848EEA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE4CD282199631F00848EEA /* CloudKit.framework */; };
+		CFE4CD2B2199647F00848EEA /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD2A2199647F00848EEA /* TableVC.swift */; };
+		CFE4CD2D219964C600848EEA /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CD2C219964C600848EEA /* Database.swift */; };
+		CFE8DBF1219AD476001D0A71 /* naamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8DBF0219AD476001D0A71 /* naamTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0AD48A219D7187003C6F70 /* viewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerExtensions.swift; sourceTree = "<group>"; };
 		CFE4CD00219962C700848EEA /* CloudkitVoorbeeld112018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudkitVoorbeeld112018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4CD03219962C700848EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFE4CD05219962C700848EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFE4CD08219962C700848EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFE4CD0B219962C700848EEA /* CloudkitVoorbeeld112018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudkitVoorbeeld112018.xcdatamodel; sourceTree = "<group>"; };
 		CFE4CD0D219962CA00848EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +42,11 @@
 		CFE4CD17219962CA00848EEA /* CloudkitVoorbeeld112018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudkitVoorbeeld112018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4CD1B219962CA00848EEA /* CloudkitVoorbeeld112018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudkitVoorbeeld112018Tests.swift; sourceTree = "<group>"; };
 		CFE4CD1D219962CA00848EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE4CD262199630A00848EEA /* CloudkitVoorbeeld112018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudkitVoorbeeld112018.entitlements; sourceTree = "<group>"; };
+		CFE4CD282199631F00848EEA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		CFE4CD2A2199647F00848EEA /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		CFE4CD2C219964C600848EEA /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		CFE8DBF0219AD476001D0A71 /* naamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naamTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE4CD292199631F00848EEA /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,7 @@
 				CFE4CD02219962C700848EEA /* CloudkitVoorbeeld112018 */,
 				CFE4CD1A219962CA00848EEA /* CloudkitVoorbeeld112018Tests */,
 				CFE4CD01219962C700848EEA /* Products */,
+				CFE4CD272199631F00848EEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +90,12 @@
 		CFE4CD02219962C700848EEA /* CloudkitVoorbeeld112018 */ = {
 			isa = PBXGroup;
 			children = (
+				CFE4CD262199630A00848EEA /* CloudkitVoorbeeld112018.entitlements */,
 				CFE4CD03219962C700848EEA /* AppDelegate.swift */,
-				CFE4CD05219962C700848EEA /* ViewController.swift */,
+				CFE4CD2A2199647F00848EEA /* TableVC.swift */,
+				CFE8DBF0219AD476001D0A71 /* naamTableViewCell.swift */,
+				CFE4CD2C219964C600848EEA /* Database.swift */,
+				CF0AD48A219D7187003C6F70 /* viewControllerExtensions.swift */,
 				CFE4CD07219962C700848EEA /* Main.storyboard */,
 				CFE4CD0D219962CA00848EEA /* Assets.xcassets */,
 				CFE4CD0F219962CA00848EEA /* LaunchScreen.storyboard */,
@@ -97,6 +112,14 @@
 				CFE4CD1D219962CA00848EEA /* Info.plist */,
 			);
 			path = CloudkitVoorbeeld112018Tests;
+			sourceTree = "<group>";
+		};
+		CFE4CD272199631F00848EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4CD282199631F00848EEA /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +172,17 @@
 				TargetAttributes = {
 					CFE4CCFF219962C700848EEA = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					CFE4CD16219962CA00848EEA = {
 						CreatedOnToolsVersion = 10.1;
@@ -200,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE4CD06219962C700848EEA /* ViewController.swift in Sources */,
+				CF0AD48B219D7187003C6F70 /* viewControllerExtensions.swift in Sources */,
+				CFE4CD2B2199647F00848EEA /* TableVC.swift in Sources */,
+				CFE8DBF1219AD476001D0A71 /* naamTableViewCell.swift in Sources */,
 				CFE4CD0C219962C700848EEA /* CloudkitVoorbeeld112018.xcdatamodeld in Sources */,
+				CFE4CD2D219964C600848EEA /* Database.swift in Sources */,
 				CFE4CD04219962C700848EEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudkitVoorbeeld112018/CloudkitVoorbeeld112018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7896DJFEXF;
 				INFOPLIST_FILE = CloudkitVoorbeeld112018/Info.plist;
@@ -382,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudkitVoorbeeld112018/CloudkitVoorbeeld112018.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7896DJFEXF;
 				INFOPLIST_FILE = CloudkitVoorbeeld112018/Info.plist;
